@@ -8,7 +8,7 @@ export default function Candidates() {
 	useEffect(() => {
 		let candidateService = new CandidateService();
 		candidateService.getAllCandidates().then((result) => setCandidates(result.data.data));
-	}, []);
+	});
 	return (
 		<div>
 			<Header as="h1">
