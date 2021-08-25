@@ -4,7 +4,7 @@ import { Menu, Icon } from 'semantic-ui-react';
 export default function Sidebar() {
     return (
         <div>
-            <Menu pointing vertical>
+            <Menu pointing vertical style={{marginTop:"52px"}}>
 				<Menu.Item name="candidates" to="/candidates">
 					<Icon name="users" /> Candidates
 				</Menu.Item>
